@@ -1,0 +1,33 @@
+{
+    "name": "web",
+    "active": true,
+    "events": [
+        "commit_comment",
+        "create",
+        "delete",
+        "discussion",
+        "discussion_comment",
+        "fork",
+        "gollum",
+        "issues",
+        "issue_comment",
+        "milestone",
+        "package",
+        "page_build",
+        "project",
+        "project_card",
+        "pull_request",
+        "pull_request_review",
+        "pull_request_review_comment",
+        "pull_request_review_thread",
+        "push",
+        "release",
+        "star",
+        "watch"
+    ],
+    "config": {
+        "content_type": "json",
+        "insecure_ssl": "0",
+        "url": "https://discord.com/api/webhooks/SERVERID/ADVANCEDAUTH/github"
+    }
+}

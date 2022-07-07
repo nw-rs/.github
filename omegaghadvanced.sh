@@ -1,0 +1,1 @@
+curl -X POST -H "Accept: application/vnd.github+json" -H "Authorization: token $GHPAT" https://api.github.com/repos/nw-rs/{.github,rustworks,rcas,os,bootloader,board-support\}/hooks  -d "@omegaghadvancedhook.json"
